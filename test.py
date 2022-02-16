@@ -31,7 +31,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    # Обновление
+    # Обновлениее
     
     # Рендеринг
     screen.fill(BLACK)
