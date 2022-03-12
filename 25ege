@@ -1,0 +1,22 @@
+
+n=0
+
+x=700000
+
+while n<5:
+    x+=1
+    imin=x
+    imax=0
+    for i in range(2,x):
+        if x%i==0:
+            if i<imin:
+                imin=i
+            if i>imax:
+                imax=i
+    M=0
+    if imax>0:
+        M=imax+imin
+    if M%10==8:
+        n+=1
+        print(x,M)
+    
